@@ -142,40 +142,50 @@ def insertion_sort(arr):
 #Testing MERGE SORT with INSERTION SORT
 
 # Generate a large random list
-large_random_list = [random.randint(1, 1000) for _ in range(100)]
+#large_random_list = [random.randint(1, 1000) for _ in range(100)]
 
 # Compare times
-insertion_time = timeit.timeit(lambda: insertion_sort(large_random_list[:]), number=10)
-merge_time = timeit.timeit(lambda: merge_sort(large_random_list[:]), number=10)
+#insertion_time = timeit.timeit(lambda: insertion_sort(large_random_list[:]), number=10)
+#merge_time = timeit.timeit(lambda: merge_sort(large_random_list[:]), number=10)
 
-print(f"Insertion Sort took: {insertion_time:.6f} seconds")
-print(f"Merge Sort took: {merge_time:.6f} seconds")
+#print(f"Insertion Sort took: {insertion_time:.6f} seconds")
+#print(f"Merge Sort took: {merge_time:.6f} seconds")
 
 
 
 # Merge sort test cases
-l = [2, 6, 9, 5, 3, 4, 5, 6, 6, 7] # [random.randint(1, 10) for _ in range(10)]
-print(l)
-print()
-sorted = merge_sort(l)
-print(sorted)
+#l = [2, 6, 9, 5, 3, 4, 5, 6, 6, 7] # [random.randint(1, 10) for _ in range(10)]
+#print(l)
+#print()
+#sorted = merge_sort(l)
+#print(sorted)
 
-l = [1]
-sorted = merge_sort(l)
-print(sorted)
+#l = [1]
+#sorted = merge_sort(l)
+#print(sorted)
 
-l = [random.randint(1, 1000) for n in range(10000)]
-sorted = merge_sort(l)
-print(sorted[:50])
+#l = [random.randint(1, 1000) for n in range(10000)]
+#sorted = merge_sort(l)
+#print(sorted[:50])
 
-n = 80
-sum = n
-while n > 0:
-    n -= 1
-    sum += n
-print(sum)
+#n = 80
+#sum = n
+#while n > 0:
+#    n -= 1
+#    sum += n
+#print(sum)
 
+sizes = [100, 1000, 5000]
 
+for size in sizes:
+    data = [random.randint(1, 1000) for _ in range(size)]
+
+    insertion_time = timeit.timeit(lambda: insertion_sort(data[:]), number=5)
+    merge_time = timeit.timeit(lambda: merge_sort(data[:]), number=5)
+
+    print(f"\nSize: {size}")
+    print(f"Insertion Sort: {insertion_time:.6f}")
+    print(f"Merge Sort: {merge_time:.6f}")
 
 
 
