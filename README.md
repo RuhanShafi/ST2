@@ -4,7 +4,7 @@
 * [Zip File](https://github.com/RuhanShafi/ST2/blob/main/Week%204.zip)
 * [Report](https://github.com/RuhanShafi/ST2/blob/main/Reports/ST2_%20Week%204%20Tutorial%20%26%20Computer%20Lab.pdf)
 ## Week 5 - Recursion and Merge-Sort Algorithms
-*[Zip File](https://github.com/RuhanShafi/ST2/blob/main/ST2_Week_5_Tutorial_Activities.zip)
+* [Zip File](https://github.com/RuhanShafi/ST2/blob/main/ST2_Week_5_Tutorial_Activities.zip)
 * [Report](https://github.com/RuhanShafi/ST2/blob/main/Reports/Recursion%20and%20Merge-Sort%20Algorithms.pdf)
 ## Week 6 - Linear Data Structures (Linked Lists, Stacks, Queues and Priority Queues)
 * [Zip File](https://github.com/RuhanShafi/ST2/blob/main/Week_6_LabAcitivities.zip)
